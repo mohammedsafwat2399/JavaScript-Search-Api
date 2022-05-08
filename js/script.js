@@ -58,7 +58,7 @@ function getMealRecipe(e){
 function mealRecipeModel(meal){
     meal = meal[0];
     let html = `
-    < h2 class="recipe-title">${meal.strMeal}</h2>
+    <h2 class="recipe-title">${meal.strMeal}</h2>
         <p class="recipe-categroy">${meal.strCategory}</p>
         <div class="recipe-instruct">
         <h3>insturction</h3>
